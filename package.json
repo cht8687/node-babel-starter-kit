@@ -1,7 +1,7 @@
 {
-  "name": "coutingcodelines",
+  "name": "node babel starter kit",
   "version": "1.0.0",
-  "description": "Couting Lines of Java Code",
+  "description": "node babel starter kit",
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint src test",

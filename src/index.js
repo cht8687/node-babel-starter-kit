@@ -7,9 +7,9 @@ export function index() {
 function processCommandLine(argv) {
   const [a, b, ...args] = argv;
   if (args.length === 0) {
-    console.error("Please type correct command: babel-node index.js filename(xxx.java)");
+    console.error("Please type correct command: babel-node index.js");
   } else {
-    readFileContent(String(args));
+    console.log("Hello world");
   }
 };
 
